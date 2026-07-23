@@ -1,3 +1,58 @@
+# brainwidth
+
+BrainBandwidth is an AI-assisted cognitive load planner that helps you schedule tasks, prevent burnout, and optimize daily mental energy.
+
+## Overview
+BrainBandwidth is an AI-assisted cognitive load planner that helps you schedule tasks, prevent burnout, and optimize daily mental energy.
+
+## Tech Stack
+- React
+- Vite
+- Express
+- Netlify (deployed)
+
+## Project Structure
+```
+brainwidth/
+  - public
+  - src
+  (39 files total)
+```
+
+## Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+```bash
+git clone https://github.com/1nc0gn30/brainwidth.git
+cd brainwidth
+npm install
+```
+
+### Development
+```bash
+npm run dev
+```
+
+### Build
+```bash
+npm run build
+```
+
+### Available Scripts
+  npm run dev - tsx server.ts
+  npm run build - vite build
+  npm run preview - vite preview
+  npm run clean - rm -rf dist
+  npm run lint - tsc --noEmit
+
+## Original README
+<details>
+<summary>Click to expand original README</summary>
+
 # BrainBandwidth
 
 BrainBandwidth is an AI-assisted cognitive load planner that helps people organize tasks around mental energy, avoid overload, and plan sustainable workdays.
@@ -81,3 +136,29 @@ SEO assets are configured for `https://brainwidth.757tech.pro`:
 - OG image: `public/og-image.png`
 
 If you want the OG image to be a real deploy preview screenshot, replace `public/og-image.png` with a 1200x630 capture from the live preview URL.
+
+</details>
+
+## TODO / Roadmap
+- [ ] Add unit tests
+- [ ] Add LICENSE file
+- [ ] Add Dockerfile for containerized deployment
+- [ ] Consider adding Tailwind CSS
+- [ ] Add CI/CD pipeline
+- [ ] Add contribution guidelines (CONTRIBUTING.md)
+- [ ] Improve error handling and edge cases
+- [ ] Add environment variable documentation
+- [ ] Update dependencies to latest versions
+- [ ] Add code comments and inline documentation
+
+## Deployment
+This project is deployed on Netlify. See netlify.toml for configuration.
+
+## Author
+**Neal Frazier** - [@AshAmplifies](https://github.com/1nc0gn30)
+
+## Links
+- GitHub: https://github.com/1nc0gn30/brainwidth
+
+---
+*This README was enhanced as part of the neals-projects-2026 batch update.*
